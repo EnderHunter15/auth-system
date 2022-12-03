@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./app.js" defer type="module"></script>
+    <link rel="stylesheet" href="./styles/global.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <a
+        class="logo"
+        href="https://github.com/EnderHunter15/auth-sys"
+        target="_blank"
+        >EnderHunter15/auth-sys</a
+      >
+      <div class="routes">
+        <button>Login</button>
+        <button>Sign Up</button>
+      </div>
+    </nav>
+    <div class="authWrapper loginW active">
+      <span>Welcome back! 🙈</span>
+      <div class="form">
+        <input type="text" placeholder="email" />
+        <input type="text" placeholder="password" />
+        <u class="swap">I don't have an account.</u>
+        <button class="login_button">Log In</button>
+      </div>
+    </div>
+    <div class="authWrapper registerW">
+      <span>Welcome! 😋</span>
+      <div class="form">
+        <input type="text" placeholder="email" />
+        <input type="text" placeholder="password" />
+        <u class="swap">Already have an account?</u>
+        <button type="submit" class="register_button">Sign Up</button>
+      </div>
+    </div>
+  </body>
+</html>

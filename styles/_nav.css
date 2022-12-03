@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  height: var(--nav-height);
+  align-items: center;
+  justify-content: space-between;
+}
+nav > .logo {
+  font-size: 18px;
+  text-decoration: none;
+  color: inherit;
+}
+
+nav > .routes > button {
+  padding: 10px 20px;
+  color: black;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  margin-left: 6px;
+  font-size: 14px;
+}

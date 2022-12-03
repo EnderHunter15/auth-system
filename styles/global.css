@@ -1,0 +1,26 @@
+@import url("./_fonts.css");
+@import url("./_auth.css");
+@import url("./_nav.css");
+
+:root {
+  --primary: #23ce6b;
+  --secondary: #a846a0;
+  --accent-1: #272d2d;
+  --accent-2: #50514f;
+  --background: #f6f8ff;
+  --nav-height: 64px;
+  --body-margin: 0 5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-origin: var(--background);
+
+  margin: var(--body-margin);
+}
